@@ -1,0 +1,5 @@
+line_number,field,message,raw_record
+6,student_id,student_id must be an integer,"{'student_id': 'abc', 'name': 'Maria Boyko', 'discipline': 'Databases', 'grade': '85'}"
+7,name,name must contain at least two words,"{'student_id': '6', 'name': '', 'discipline': 'Algorithms', 'grade': '73'}"
+8,discipline,"discipline must be one of: Professional Python, Databases, Algorithms","{'student_id': '7', 'name': 'Andrii Lytvyn', 'discipline': 'Networks', 'grade': '88'}"
+9,grade,grade must be a finite number between 0 and 100,"{'student_id': '8', 'name': 'Sofia Kravets', 'discipline': 'Professional Python', 'grade': '105'}"

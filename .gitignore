@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.venv/
+*.egg-info/
+Lab_05/output/*.tmp
+Lab_05/output/*.bak
+Lab_05/logs/*.log

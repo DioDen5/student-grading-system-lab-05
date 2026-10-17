@@ -1,0 +1,23 @@
+[
+  {
+    "records": 10000,
+    "eager_time_seconds": 0.05438,
+    "streaming_time_seconds": 0.051814,
+    "eager_peak_mib": 3.739,
+    "streaming_peak_mib": 0.046
+  },
+  {
+    "records": 100000,
+    "eager_time_seconds": 0.54701,
+    "streaming_time_seconds": 0.496212,
+    "eager_peak_mib": 37.265,
+    "streaming_peak_mib": 0.046
+  },
+  {
+    "records": 500000,
+    "eager_time_seconds": 3.050611,
+    "streaming_time_seconds": 2.943048,
+    "eager_peak_mib": 187.247,
+    "streaming_peak_mib": 0.046
+  }
+]

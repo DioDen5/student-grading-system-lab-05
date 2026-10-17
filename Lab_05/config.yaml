@@ -1,0 +1,26 @@
+schema_version: 1
+
+input:
+  path: data/grades.csv
+  format: auto
+
+output:
+  path: output/valid_grades.json
+  backup_existing: true
+  summary_path: output/summary.json
+
+processing:
+  allowed_disciplines:
+    - Professional Python
+    - Databases
+    - Algorithms
+  passing_grade: 60
+  skip_invalid: true
+
+logging:
+  level: INFO
+  path: logs/application.log
+  error_records_path: logs/invalid_records.csv
+  max_bytes: 1000000
+  backup_count: 3
+
